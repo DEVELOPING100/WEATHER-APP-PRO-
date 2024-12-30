@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: "Mulish", sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./Images/NIghts/snowyy.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.weather-app{
+    width: 830px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    display: flex;
+}
+
+.current-weather{
+    background: transparent;
+    width: 550px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 12px 0px 0px 12px;
+    margin-right: 50px;
+}
+.search-and-city{
+    display: flex;
+    gap: 190px;
+
+
+}
+
+.search-and-city input{
+    border: none;
+    outline: none;
+    padding: 5px 30px 5px 8px;
+    border-radius: 16px;
+    width: 200px;
+    position: absolute;
+    left: 600px;
+}
+
+.search-and-city i{
+    position: absolute;
+    right: 580px;
+    font-size: 15px;
+    top: 45px
+    
+    
+}
+
+h2.localise{
+    position: relative;
+}
+
+.main-weather{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    position: relative;
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.main-weather span {
+    font-size: 30px;
+                                                                                                                                                                                                                                                                                                                                                 
+    
+}
+
+.daily-forecast{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+   
+
+     
+}
+.hourly-forecast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.daily-forecast .day{
+    padding: 10px;
+   border: 1px solid white;
+   border-radius: 5px;
+}
+
+.other-info{
+   background: rgba(110, 110, 110, 0.25);
+   z-index: 1;
+   padding: 1.8em 2.8em;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   width: 280px;
+   border-radius: 0 12px 12px 0;
+
+
+}
+
+.hourly-forecast .hour{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 100px;
+}
+
+span.days2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+h2.mini-temp{
+    margin-top: 8px;
+}
+
+
+h3.hour-title{
+  text-align: center;
+  margin-top: 45px;
+}
+
+p.behaviours{
+    font-size: 16px;
+}
+
+
+.date-n-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-n-time #good-day{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.date-n-time #AM-PM{
+    font-size: 20px;
+}
+
+
+.icons span, .icons-2 span{
+    display: flex;
+    
+}
+
+
+.icons-2 span p{
+    font-size: 18px;
+}
+
+.items{
+    height: 80px;
+}
+
+.style-temp{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+img.iconz{
+    display: flex;
+    align-content: center;
+    margin-left: 65px;
+    margin-bottom: -20px;
+    
+}
+.icons-2{
+    display: flex;
+    flex-direction: column;
+    left: 330px;
+    position: relative;
+    bottom: 108px;
+
+}
+
+
+
